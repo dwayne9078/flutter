@@ -10,7 +10,10 @@ class Otro extends StatelessWidget {
         title: const Center(child: Text("OTRA PAGINA")),
       ),
       body: const Center(
-        child: Text('Esto es otra pagina de Halloween 1', style: TextStyle(fontSize: 20),),
+        child: Text(
+          'Esto es otra pagina de Halloween 1',
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }

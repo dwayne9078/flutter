@@ -32,9 +32,10 @@ class HomeScreen extends StatelessWidget {
                   onPressed: () {
                     const snack = SnackBar(
                       content: Text(
-                        "Cuidate que esta sera la peor noche de tu vida...",
+                        "Cuidate que esta será la peor noche de tu vida...",
                         style: TextStyle(fontSize: 20),
                       ),
+                      duration: Duration(milliseconds: 500),
                     );
                     ScaffoldMessenger.of(context).showSnackBar(snack);
                   },
